@@ -7,7 +7,6 @@ const HtsPosIndicator = () => {
       <div className="flex flex-col w-full">
         <HtsPos />
         <div className="m-2">
-          {/* Title for the PITC section */}
           <p className="font-medium text-gray-600 mb-2">HTS_POS Lead Indicators</p>
           <div className="flex flex-wrap gap-4">
             <PITC value="409" title="Index Cases" />

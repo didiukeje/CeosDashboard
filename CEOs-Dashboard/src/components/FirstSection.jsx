@@ -15,7 +15,7 @@ function FirstSection() {
         icon={IconOrder}
         valueClass="text-2xl font-bold text-gray-900"
         titleClass="text-sm text-gray-700"
-        difference="" // Empty string to avoid warning
+        difference="" 
       />
       <TopIndicator 
         value="0" 

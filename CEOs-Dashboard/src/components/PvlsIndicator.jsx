@@ -21,7 +21,7 @@ const PvlsIndicator = () => {
                     <DonutPieChart label="" percentage={64} />
                 </div>
             </div>
-            <TestingTAT value="6.9" title="Testing TAT" /> {/* Placed inline with PITC */}
+            <TestingTAT value="6.9" title="Testing TAT" />
           </div>
         </div>
       </div>

@@ -16,7 +16,6 @@ function ApinHeader() {
         />
       </div>
 
-      {/* Header Content Section */}
       <div className="flex flex-col justify-between">
         <h2 className="text-base">APIN Situation Room</h2>
         <div className="flex items-center space-x-2">

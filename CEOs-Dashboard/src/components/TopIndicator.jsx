@@ -13,12 +13,10 @@ export function TopIndicator({
 }) {
   return (
     <div className="bg-white rounded-lg h-[85px] w-[230px] shadow-md p-2 flex items-center">
-      {/* Icon Section */}
       <div className="relative h-10 w-10 bg-cover bg-center rounded-full mr-2">
         <img src={icon} alt={title} className="absolute inset-0 h-8 w-8 m-auto" />
       </div>
 
-      {/* Text Section */}
       <div className="flex flex-col justify-center">
       <h2 className={valueClass}>{value}</h2>
         <p className={titleClass}>{title}</p>
@@ -31,7 +29,7 @@ export function TopIndicator({
   );
 }
 
-// Define prop types for validation
+
 TopIndicator.propTypes = {
   value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
   title: PropTypes.string.isRequired,
@@ -39,11 +37,11 @@ TopIndicator.propTypes = {
   gapText: PropTypes.string.isRequired,
   icon: PropTypes.string.isRequired,
 
-  // Additional prop types for custom class names
-  titleClass: PropTypes.string,      // Custom CSS class for title
-  valueClass: PropTypes.string,      // Custom CSS class for value
-  differenceClass: PropTypes.string, // Custom CSS class for difference
-  gapTextClass: PropTypes.string,    // Custom CSS class for gap text
+
+  titleClass: PropTypes.string,      
+  valueClass: PropTypes.string,      
+  differenceClass: PropTypes.string, 
+  gapTextClass: PropTypes.string,    
 };
 
 export default TopIndicator;
