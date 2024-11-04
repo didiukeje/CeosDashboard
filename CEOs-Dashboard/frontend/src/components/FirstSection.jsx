@@ -1,4 +1,4 @@
-import { TopIndicator } from '../components/TopIndicator';
+import { TopIndicator } from './TopIndicator';
 import Group from '../assets/Group.png';
 import TablerRibbonHealth from '../assets/tableribbonhealth.png';
 import Microscope from '../assets/uitmicroscope.png';
